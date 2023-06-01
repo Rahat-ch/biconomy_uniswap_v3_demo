@@ -45,7 +45,7 @@ export default function App() {
         chainId: ethers.utils.hexValue(ChainId.POLYGON_MAINNET).toString(),
         network: "mainnet",
         whitelistUrls: {
-          'https://aanft.vercel.app': signature1,
+          'https://aaswap.vercel.app': signature1,
         }
       })
       sdkRef.current = socialLoginSDK
